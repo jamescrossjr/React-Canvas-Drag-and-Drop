@@ -1,0 +1,17 @@
+.point-pill {
+    padding: 5px 10px;
+    border: 2px solid #111111;
+    border-radius: 500px;
+    display: inline-block;
+    min-width: 140px;
+}
+
+.point-pill-values {
+    margin-right: 20px;
+    min-width: 100px;
+    display: inline-block;
+}
+
+.point-pill-icon {
+    cursor: pointer;
+}
