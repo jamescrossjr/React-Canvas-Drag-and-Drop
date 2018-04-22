@@ -1,6 +1,7 @@
 {
   "name": "canvas-drag-and-drop",
   "version": "0.1.0",
+  "homepage": "/drag-and-drop",
   "private": true,
   "dependencies": {
     "react": "^16.3.2",
