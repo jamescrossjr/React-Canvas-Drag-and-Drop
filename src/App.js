@@ -70,6 +70,9 @@ class App extends Component {
                                 showPoints={this.state.showPoints}
                                 showControls={this.state.showControls}
                             />
+                            <div className="margin--top">
+                                <a href="https://github.com/jamescrossjr/React-Canvas-Drag-and-Drop" target="_blank" title="See the Code on Github">Code on Github <i class="github icon"></i></a>
+                            </div>
                         </div>
                         <div className="four wide column">
                             <h3>Points:</h3>

@@ -159,6 +159,7 @@ class DrawingCanvas extends Component {
 
         if (previous) {
             ctx.beginPath();
+            ctx.lineWidth = 3;
             ctx.moveTo(previous.point.x, previous.point.y);
             ctx.bezierCurveTo(
                 current.controlA.x, current.controlA.y,
@@ -195,6 +196,7 @@ class DrawingCanvas extends Component {
 
             // draw control lines
             ctx.beginPath();
+            ctx.lineWidth = 1;
             ctx.strokeStyle = self.controlLineColor;
             // draw control line for Control A
             ctx.moveTo(previous.point.x, previous.point.y);
